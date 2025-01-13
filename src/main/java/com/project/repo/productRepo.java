@@ -2,8 +2,9 @@ package com.project.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.project.model.product;
+import com.project.model.ProductModel;
 
-public interface productRepo extends JpaRepository<product, Integer> {
+public interface ProductRepo extends JpaRepository<ProductModel, Long> {
+
 
 }
